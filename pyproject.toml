@@ -3,7 +3,7 @@ name = "telegram-bot"
 version = "0.1.0"
 description = "Default template for PDM package"
 authors = [
-    {name = "", email = "kwchun0520@gmail.com"},
+    {name = "kwchun0520", email = "cks05200@gmail.com"},
 ]
 dependencies = [
     "python-dotenv>=1.0.1",
