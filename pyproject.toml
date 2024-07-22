@@ -1,0 +1,21 @@
+[project]
+name = "telegram-bot"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "", email = "kwchun0520@gmail.com"},
+]
+dependencies = [
+    "python-dotenv>=1.0.1",
+    "python-telegram-bot>=21.2",
+    "openai>=1.35.3",
+    "langchain>=0.2.5",
+    "yahoo-fin>=0.8.9.1",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
